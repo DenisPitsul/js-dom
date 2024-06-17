@@ -1,0 +1,27 @@
+body {
+    font-family: sans-serif;
+}
+
+main {
+    padding: 20px;
+    background-color: #efa39f;
+}
+article {
+    padding: 20px;
+    background-color: #91c2a3;
+}
+button {
+    padding: 10px 20px;
+    background-color: transparent;
+    display: block;
+    border: none;
+    font-size: 20px;
+}
+
+.redHeard {
+    color: red;
+}
+
+.clickedArticle {
+    background-color: yellow;
+}
