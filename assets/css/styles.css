@@ -1,8 +1,8 @@
-.task {
-    padding: 15px;
-    margin: 20px;
-    border-radius: 15px;
-    box-shadow: 0 0 5px grey;
+/* .task {
+    padding: .9375rem;
+    margin: 1.25rem;
+    border-radius: .9375rem;
+    box-shadow: 0 0 .3125rem grey;
 }
 
 .redTask {
@@ -18,24 +18,57 @@
 }
 
 .roundBorger {
-    border-radius: 15px;
-    border: 1px solid gray;
+    border-radius: .9375rem;
+    border: .0625rem solid gray;
 }
 
 div {
-    padding: 20px;
-    border: 1px solid red;
+    padding: 1.25rem;
+    border: .0625rem solid red;
 }
 
 body {
-    padding: 10px;
+    padding: .625rem;
 }
 article {
-    margin: 100px auto 0;
-    padding: 40px;
-    font-size: 36px;
+    margin: 6.25rem auto 0;
+    padding: 2.5rem;
+    font-size: 2.25rem;
     text-align: center;
     font-family: sans-serif;
-    border-radius: 25px;
-    box-shadow: 0 0 5px purple;
+    border-radius: 1.5625rem;
+    box-shadow: 0 0 .3125rem purple;
+} */
+
+:root {
+    font-family: sans-serif;
+    --user-img-size: 6.25rem;
+}
+
+.userCard {
+    display: flex;
+    gap: .9375rem;
+    align-items: center;
+    box-shadow: grey 0 0 .3125rem;
+    margin: .625rem;
+    padding: .9375rem;
+    border-radius: .9375rem;
+}
+
+.userImg {
+    width: var(--user-img-size);
+    height: var(--user-img-size);
+    border-radius: 50%;
+    border: .125rem solid violet;
+}
+
+.userName {
+}
+
+.userAge {
+    color: grey;
+}
+
+.trashIcon {
+    margin-left: auto;
 }
